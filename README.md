@@ -90,37 +90,6 @@ javac -cp ".:lib/mysql-connector-java-8.0.33.jar" -d bin src/**/*.java
 java -cp "bin:lib/mysql-connector-java-8.0.33.jar" Main
 ```
 
-## Rubric Coverage
-
-### ✅ OOP Implementation (10 marks)
-- **Inheritance**: Base class hierarchy for entities
-- **Polymorphism**: Interface implementations (IExpenseDAO, IUserDAO)
-- **Encapsulation**: Private fields with getters/setters
-- **Exception Handling**: Custom exceptions with try-catch blocks
-- **Interfaces**: DAO pattern with interfaces
-
-### ✅ Collections & Generics (6 marks)
-- `ArrayList<Expense>` for expense lists
-- `HashMap<String, Double>` for category totals
-- `List<User>` with generics
-- Iterator pattern for data traversal
-
-### ✅ Multithreading & Synchronization (4 marks)
-- Background CSV export using Thread
-- Synchronized methods for database operations
-- Thread-safe data access
-
-### ✅ Database Operations Classes (7 marks)
-- `UserDAO`: Complete CRUD operations
-- `ExpenseDAO`: Full expense management
-- `BudgetDAO`: Budget tracking operations
-- DAO pattern implementation
-
-### ✅ JDBC Connectivity (3 marks)
-- Connection pooling
-- Prepared statements (SQL injection prevention)
-- Transaction management
-- Resource cleanup (try-with-resources)
 
 ## Key Features Demonstration
 
@@ -211,7 +180,3 @@ Educational project for academic submission.
 - [x] GitHub repository public
 
 ---
-
-**GitHub Repository**: `https://github.com/yourusername/expense-tracker-java`
-
-**Submission Date**: November 2025
