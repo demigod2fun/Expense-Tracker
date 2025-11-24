@@ -134,13 +134,6 @@ java -cp "bin:lib/mysql-connector-java-8.0.33.jar" Main
 - [x] Exception handling
 - [x] Database connectivity
 
-## Screenshots
-Include screenshots of:
-1. Login screen
-2. Dashboard with expense list
-3. Add expense form
-4. Budget tracking view
-5. Report generation
 
 ## Dependencies
 - MySQL Connector/J 8.0.33+
