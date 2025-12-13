@@ -159,17 +159,4 @@ java -cp "bin:lib/mysql-connector-java-8.0.33.jar" Main
 **Lakshya Choudhary**  
 B.Tech Computer Science Engineering  
 Email: choudharylakshya05@gmail.com
-
-## License
-Educational project for academic submission.
-
-## Submission Checklist
-- [x] Complete source code
-- [x] Database schema file
-- [x] README with setup instructions
-- [x] Presentation slides
-- [x] All rubric requirements met
-- [x] Code properly commented
-- [x] GitHub repository public
-
 ---
